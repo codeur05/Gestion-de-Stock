@@ -1,23 +1,23 @@
 
-#  Gestion de Stock en C
+# 📦 Gestion de Stock en C
 
 Ce projet est une application console simple écrite en langage **C** qui permet de gérer un stock de produits.  
 Il permet d'ajouter, modifier, supprimer, rechercher, afficher et sauvegarder des produits dans un fichier texte.
 
 ---
 
-##  Fonctionnalités
+## ✅ Fonctionnalités
 
--  Ajouter un produit (ID, nom, quantité)
--  Modifier un produit existant
--  Supprimer un produit
--  Afficher la liste des produits
--  Rechercher un produit par nom ou ID
--  Sauvegarde automatique dans un fichier `stock.txt`
+- 🔹 Ajouter un produit (ID, nom, quantité)
+- ✏️ Modifier un produit existant
+- ❌ Supprimer un produit
+- 📄 Afficher la liste des produits
+- 🔍 Rechercher un produit par nom ou ID
+- 💾 Sauvegarde automatique dans un fichier `stock.txt`
 
 ---
 
-##  Structure d’un produit
+## 🗃️ Structure d’un produit
 
 Chaque produit contient :
 - un identifiant (ID)
@@ -26,7 +26,7 @@ Chaque produit contient :
 
 ---
 
-##  Fichier de données
+## 📁 Fichier de données
 
 Les données sont enregistrées dans un fichier texte appelé `stock.txt` avec la structure suivante (un produit par ligne) :
 
@@ -37,7 +37,7 @@ ID2 NomProduit2 Quantite2
 
 ---
 
-##  Lancer le programme
+## ▶️ Lancer le programme
 
 1. Compiler le fichier source :
 
@@ -55,7 +55,7 @@ gcc -o gestion_stock main.c
 
 ---
 
-##  Exemple d'utilisation
+## ✨ Exemple d'utilisation
 
 ```
 === MENU GESTION DE STOCK ===
@@ -69,17 +69,14 @@ gcc -o gestion_stock main.c
 
 ---
 
-##  Auteur
+## 👤 Auteur
 
-Kantagba Efraim
-Koutiebou Ornella
-Zoungrana Eulanie
-KERE Hnsufinniou
-Konombo Madeleine
+Projet réalisé par **[Ton Nom]**  
+Dans le cadre d’un devoir de programmation en langage C.
 
 ---
 
-##  Remarques
+## 📌 Remarques
 
 - Le fichier `stock.txt` est généré automatiquement s'il n'existe pas.
 - Le programme peut gérer jusqu’à **100 produits** (`#define MAX 100`).
